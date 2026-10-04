@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+_expo_init/node_modules/
+
+# Expo
+.expo/
+dist/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+android/app/debug/
+android/app/release/
+ios/Pods/
+ios/build/
+
+# Secrets
+google-services.json
+GoogleService-Info.plist
+*.keystore
+*.pem
+*.cert
+
+# Claude
+.claude/worktrees/
+.claude/plans/
+
+# Temp
+*.tmp
+*.log
