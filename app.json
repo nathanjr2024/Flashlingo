@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "FlashLingo",
+    "slug": "flashlingo",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "flashlingo",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.flashlingo.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#6C63FF",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.flashlingo.app",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-speech",
+        {}
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
