@@ -13,12 +13,16 @@
 - [x] Criação do .gitignore
 
 ## Em Andamento
-- [ ] Criação dos documentos base (HUMAN_TODO.md)
-- [ ] Commit inicial com documentação
-- [ ] Inicialização do projeto Expo com TypeScript
 - [ ] Configuração do drizzle-orm + SQLite
-- [ ] Implementação do módulo SRS puro com testes
-- [ ] Branch feat/srs-module e PR
+- [ ] PR da branch feat/srs-module
+
+## Concluído na Fase 1
+- [x] Criação dos documentos base (HUMAN_TODO.md)
+- [x] Commit inicial com documentação
+- [x] Inicialização do projeto Expo com TypeScript
+- [x] Implementação do módulo SRS puro com testes (36 testes, 100% cobertura)
+- [x] Branch feat/srs-module criada e commitada
+- [x] Remote origin configurado (https://github.com/nathanjr2024/Flashlingo.git)
 
 ## Pendente
 - [ ] Fase 2: Banco + Dados (feat/data-layer)
